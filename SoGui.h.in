@@ -145,6 +145,7 @@ private:
 
 #ifdef __COIN_SOWIN__
 public:
+  static int haveIdleTasks(void);
   static void doIdleTasks(void);
 #endif // __COIN_SOWIN__
 
